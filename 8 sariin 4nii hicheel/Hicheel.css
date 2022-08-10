@@ -1,0 +1,33 @@
+
+#bg {
+    background-color: cornflowerblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}.box {
+    width: 3px;
+    height: 15px;
+    background-color: white;
+    animation: Huvir 1.5s ease-in-out infinite;
+}@keyframes Huvir{
+    0% , 50%, 100% {
+        transform: scaleY(1);
+    }
+    20% {
+        transform: scaleY(2);
+    }
+}.one {
+    animation-delay: 0.1s;
+}.two {
+    animation-delay: 0.2s;
+}.three {
+    animation-delay: 0.3s;
+}.four {
+    animation-delay: 0.4s;
+}.five {
+    animation-delay: 0.5s;
+}

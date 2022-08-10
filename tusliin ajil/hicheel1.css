@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+}
+.bigBack {
+    background-color: gainsboro;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}.back {
+    width: 200px;
+    height: 240px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}.photo {
+    width: 150px;
+    height: 150px;
+    transition-duration: 1s;
+}.readMore {
+    background-color: gainsboro;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}.photo:hover {
+    transform: scale(1.5) rotate(360deg);
+}.garna {
+    background-color: white; 
+    width: 200px;
+    height: 40px;
+    display: none;
+    justify-content: center;
+}.photo:hover + .garna {
+    display: flex;
+    position: absolute;
+    top: 260px;
+}.name {
+    position: absolute;
+    top: 220px;
+}

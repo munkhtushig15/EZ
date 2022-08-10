@@ -1,0 +1,142 @@
+#search{
+    width: 20px;
+    height: 20px;
+    position:absolute;
+    top:49px;
+    left: 370px;
+}
+#Sale{
+    background-color: brown;
+    color: white;
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+}
+#Cat_food{
+    width: 400px;
+    height: 420px;
+}
+.tomAav{
+    width: 1000px;
+    height: 1000px;
+}
+#Cat_food_2{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif ;
+    position: absolute;
+    top: 10px;
+    left: 470px;
+}
+#tailbar{
+    width: 400px;
+    height: 150px;
+    color: grey;
+    position: absolute;
+    top: 130px;
+    left: 470px;
+}
+.hoyr{
+    width: 60px;
+    height: 30px;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 5px;
+}
+.neg{
+    color: gray;
+    
+}
+#une{
+    position: absolute;
+    top: 60px;
+    left: 470px;
+}
+#jin{
+    position: absolute;
+    top: 310px;
+    left: 470px;
+}
+#hemjeeNeg{
+    position: absolute;
+    top: 370px;
+    left: 470px;
+    padding: 10px 10px 0px 10px;
+}
+#hemjeeHoyr{
+    position: absolute;
+    top: 370px;
+    left: 570px;
+    padding: 10px 10px 0px 10px;
+}
+#avah{
+    background-color: grey;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    left: 680px;
+    top: 490px;
+}
+#hasah{
+    font-size: 30px;
+    border: 1px solid grey;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: gray;
+    position: absolute;
+    left: 470px;
+    top: 480px;
+    padding: 10px 10px 10px 10px;
+}
+#nemeh{
+    font-size: 30px;
+    border: 1px solid grey;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: gray;
+    position: absolute;
+    top: 480px;
+    left: 531px;
+    padding: 12px 10px 8px 10px;
+}   
+#too{
+    font-size: 30px;
+    border: 1px solid grey;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: gray;
+    position: absolute;
+    left: 593px;
+    top: 480px;
+    padding: 10px 10px 10px 10px;
+}
+#zurh{
+    border: 1px solid grey;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: gray;
+    position: absolute;
+    left: 470px;
+    top: 600px;
+    padding: 20px 10px 0px 10px;
+}
+#ref{
+    border: 1px solid grey;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: gray;
+    position: absolute;
+    left: 531px;
+    top: 600px;
+    padding: 18px 10px 2px 10px;
+}
+#asuult{
+    position:fixed;
+    top: 1030px;
+}
