@@ -79,26 +79,60 @@
 
 // ---=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=======-----------==-=-=-=-==-=-=-==-=-==-=-=-=-=-==-=-=-=-==-=-=-=--==-[]
 
+
+
+// class Animal {
+//     constructor(hedenHultei, suunTejeelten) {
+//         this.hedenHultei = hedenHultei,
+//         this.suunTejeelten = suunTejeelten
+//     }
+//     print() {
+//         console.log()
+//     }
+// }
+
+// class Brirds extends Animal {
+//     constructor(Ner, mahIdne) {
+//         this.Ner = Ner,
+//         this.mahIdne = mahIdne
+//     }
+//     printBirds() {
+//         console.log()
+//     }
+// }
+
+
+
 //Animal class uusgene: hedenHultei, suunTejeelten
 //Birds class animal gsn class-s udamshina. ner, mahaarHoolloh
 //birds class ashiglaj burged/ boljmor
 
 class Animal {
-    constructor(hedenHultei, suunTejeelten) {
-        this.hedenHultei = hedenHultei,
-        this.suunTejeelten = suunTejeelten
+    constructor (legs, suuntejeelt) {
+        this.legs = legs;
+        this.suuntejeelt = suuntejeelt;
     }
-    print() {
-        console.log()
+    whatAnimal() {
+        console.log('legs:',this.legs);
+        console.log('Suuntejeelten:',this.suuntejeelt);
     }
 }
 
-class Brirds extends Animal {
-    constructor(Ner, mahIdne) {
-        this.Ner = Ner,
-        this.mahIdne = mahIdne
+class Birds extends Animal {
+    constructor (legs, name, mahIdne, suuntejeelt) {
+        super(legs, suuntejeelt);
+        this.name = name;
+        this.mahidne = mahIdne;
     }
-    printBirds() {
-        console.log()
+    printBird() {
+        this.whatAnimal();
+        console.log('name:',this.name,);
+        console.log('mah idne:',this.mahidne);
     }
 }
+
+let burged = new Birds (2, "Burged", true, false);
+let boljmor = new Birds (2, "Boljmor", false, true);
+
+burged.printBird();
+boljmor.printBird();
