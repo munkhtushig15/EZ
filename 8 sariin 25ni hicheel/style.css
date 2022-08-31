@@ -1,0 +1,22 @@
+.alim {
+    display: none;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.pic{
+    animation: myani 6s linear infinite;
+    transition: transform 6s;
+}
+@keyframes myani {
+    to{
+        transform: rotate(360deg);
+    }
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

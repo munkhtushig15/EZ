@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: orange;
+}
+.FAQ {
+    font-size: 30px;
+}
+.accordion-item {
+    width: 100%;
+    height: fit-content;
+}
+.FAQ span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 30px 0;
+}

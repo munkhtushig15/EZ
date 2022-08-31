@@ -209,6 +209,6 @@
     transition: 0.2s linear;
 }
 .photo:hover {
-    transform:translate(-10px);
+    transform:translate(-10px, -10px);
     box-shadow: 5px 10px 5px #8d2050;
 }
